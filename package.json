@@ -1,0 +1,29 @@
+{
+  "name": "professionalcasestudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-init": "node node_modules/jasmine/bin/jasmine.js init",
+    "test": "node node_modules/jasmine/bin/jasmine.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.3.15",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.1.0",
+    "jsdoc": "^3.5.5",
+    "karma": "^3.1.3",
+    "karma-jasmine": "^1.1.2"
+  }
+}
